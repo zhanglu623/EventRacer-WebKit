@@ -1,0 +1,2 @@
+/usr/bin/ar cr libbase.a  CMakeFiles/base.dir/base.cpp.o CMakeFiles/base.dir/mutex.cpp.o CMakeFiles/base.dir/stringprintf.cpp.o CMakeFiles/base.dir/strutil.cpp.o
+/usr/bin/ranlib libbase.a

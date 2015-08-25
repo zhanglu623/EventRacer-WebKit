@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jack/src/EventRacer/src/online/VCRaceDetector.h
+string
+-
+vector
+-
+
+/home/jack/src/EventRacer/src/online/VCRaceDetectorTest.cpp
+VCRaceDetector.h
+/home/jack/src/EventRacer/src/online/VCRaceDetector.h
+stdio.h
+-
+string
+-
+

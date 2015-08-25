@@ -1,0 +1,2 @@
+/usr/bin/ar cr libeventracer_filters.a  CMakeFiles/eventracer_filters.dir/RaceTags.cpp.o
+/usr/bin/ranlib libeventracer_filters.a

@@ -1,0 +1,16 @@
+<script id = "race@raceId@@raceAorB@" class = "Lu_Inst">
+	if(!myVars) {var myVars = {};}
+	if(!myVars.races) {myVars.races= {};}
+	myVars.races.race@raceId@={};
+	myVars.races.race@raceId@.varName="@raceVar@";
+	myVars.races.race@raceId@.event1={};
+	myVars.races.race@raceId@.event2={};
+	myVars.races.race@raceId@.event1.id = "@event1Id@";
+	myVars.races.race@raceId@.event1.type = "@event1Type@";
+	myVars.races.race@raceId@.event1.loc = "@event1Id@_LOC";
+	myVars.races.race@raceId@.event2.id = "@event2Id@";
+	myVars.races.race@raceId@.event2.type = "@event2Type@";
+	myVars.races.race@raceId@.event2.loc = "@event2Id@_LOC";
+	myVars.races.race@raceId@.event1.executed= false;// true to disable, false to enable
+	myVars.races.race@raceId@.event2.executed= false;// true to disable, false to enable
+</script>

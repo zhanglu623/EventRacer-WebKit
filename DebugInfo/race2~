@@ -1,0 +1,185 @@
+New race: 91 , 442,  count: 1
+
+Event: 91
+Begin
+Token:
+30
+4
+Child:
+1
+N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+End
+Size: 2
+
+Event: 442
+Begin
+Token:
+22
+1
+Child:
+1
+URL: http://zhanglu623.altervista.org/case1/pswlab.kaist.ac.kr/image1.jpg
+Child:
+1
+URL: http://zhanglu623.altervista.org/case1/pswlab.kaist.ac.kr/image1.jpg
+Child:
+1
+N7WebCore5TimerINS_11EventSenderINS_11ImageLoaderEEEEE
+End
+Size: 4
+
+New race: 442 , 449,  count: 2
+
+Event: 442
+Begin
+Token:
+22
+1
+Child:
+1
+URL: http://zhanglu623.altervista.org/case1/pswlab.kaist.ac.kr/image1.jpg
+Child:
+1
+URL: http://zhanglu623.altervista.org/case1/pswlab.kaist.ac.kr/image1.jpg
+Child:
+1
+N7WebCore5TimerINS_11EventSenderINS_11ImageLoaderEEEEE
+End
+Size: 4
+
+Event: 449
+Begin
+Token:
+22
+1
+Child:
+1
+N7WebCore5TimerINS_21ResourceLoadSchedulerEEE
+Child:
+1
+URL: http://zhanglu623.altervista.org/case1/pswlab.kaist.ac.kr/image2.jpg
+Child:
+1
+URL: http://zhanglu623.altervista.org/case1/pswlab.kaist.ac.kr/image2.jpg
+Child:
+1
+N7WebCore5TimerINS_11EventSenderINS_11ImageLoaderEEEEE
+End
+Size: 5
+
+New race: 442 , 489,  count: 3
+
+Event: 442
+Begin
+Token:
+22
+1
+Child:
+1
+URL: http://zhanglu623.altervista.org/case1/pswlab.kaist.ac.kr/image1.jpg
+Child:
+1
+URL: http://zhanglu623.altervista.org/case1/pswlab.kaist.ac.kr/image1.jpg
+Child:
+1
+N7WebCore5TimerINS_11EventSenderINS_11ImageLoaderEEEEE
+End
+Size: 4
+
+Event: 489
+Begin
+Token:
+22
+1
+Child:
+1
+N7WebCore5TimerINS_21ResourceLoadSchedulerEEE
+Child:
+1
+URL: http://zhanglu623.altervista.org/case1/pswlab.kaist.ac.kr/image3.jpg
+Child:
+1
+URL: http://zhanglu623.altervista.org/case1/pswlab.kaist.ac.kr/image3.jpg
+Child:
+1
+N7WebCore5TimerINS_11EventSenderINS_11ImageLoaderEEEEE
+End
+Size: 5
+
+New race: 449 , 489,  count: 4
+
+Event: 449
+Begin
+Token:
+22
+1
+Child:
+1
+N7WebCore5TimerINS_21ResourceLoadSchedulerEEE
+Child:
+1
+URL: http://zhanglu623.altervista.org/case1/pswlab.kaist.ac.kr/image2.jpg
+Child:
+1
+URL: http://zhanglu623.altervista.org/case1/pswlab.kaist.ac.kr/image2.jpg
+Child:
+1
+N7WebCore5TimerINS_11EventSenderINS_11ImageLoaderEEEEE
+End
+Size: 5
+
+Event: 489
+Begin
+Token:
+22
+1
+Child:
+1
+N7WebCore5TimerINS_21ResourceLoadSchedulerEEE
+Child:
+1
+URL: http://zhanglu623.altervista.org/case1/pswlab.kaist.ac.kr/image3.jpg
+Child:
+1
+URL: http://zhanglu623.altervista.org/case1/pswlab.kaist.ac.kr/image3.jpg
+Child:
+1
+N7WebCore5TimerINS_11EventSenderINS_11ImageLoaderEEEEE
+End
+Size: 5
+
+New race: 91 , 489,  count: 5
+
+Event: 91
+Begin
+Token:
+30
+4
+Child:
+1
+N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+End
+Size: 2
+
+Event: 489
+Begin
+Token:
+22
+1
+Child:
+1
+N7WebCore5TimerINS_21ResourceLoadSchedulerEEE
+Child:
+1
+URL: http://zhanglu623.altervista.org/case1/pswlab.kaist.ac.kr/image3.jpg
+Child:
+1
+URL: http://zhanglu623.altervista.org/case1/pswlab.kaist.ac.kr/image3.jpg
+Child:
+1
+N7WebCore5TimerINS_11EventSenderINS_11ImageLoaderEEEEE
+End
+Size: 5
+
+New race: 489 , 534,  count: 6
+

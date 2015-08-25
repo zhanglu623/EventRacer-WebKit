@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jack/src/EventRacer/src/eventracer/trialwebapp/BrowserRunner.cpp
+BrowserRunner.h
+/home/jack/src/EventRacer/src/eventracer/trialwebapp/BrowserRunner.h
+
+/home/jack/src/EventRacer/src/eventracer/trialwebapp/BrowserRunner.h
+

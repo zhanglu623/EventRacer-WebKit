@@ -1,0 +1,147 @@
+Loading ../webkit/ER_actionlog... DONE
+bin/eventracer/webapp/raceanalyzer
+../webkit/ER_actionlog
+../webkit/zlLog.txt
+../webkit/DebugInfo/token
+RaceInfo
+
+Created graph with 14486 nodes, 21925 arcs.
+Changed 0 arcs to make independent graph exploration.
+Added 28 script arcs
+Added 1 event arcs
+All variables loaded.
+Building timers graph...
+Using 1847 timed arcs
+Adding timed arcs 54.087710% done. 545 arcs added.
+Timers added 560 new arcs
+Timers graph done (52 ms).
+Checking for races...
+ThreadMapping: Computing threads...
+graph.numNodes: 14486
+ThreadMapping: Found 72 threads for 6 ms
+ThreadMapping: Computing vector clocks...
+ThreadMapping: Vector clocks done... (8 ms)
+Has 3 vars with WW races, 10 with RW and 12 with WR.
+Searching for race dependency...
+Searching for multi-race dependency...
+Using 14 uncovered races
+0 are multi-covered
+Race size: 26
+----------------------------------------------------
+****Race:  E1: 503   vs   E2: 876
+Event :503
+  --145
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ----503
+
+Event :876
+  --875
+---------------------->1 th child,    type is: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+  ----876
+
+----------------------------------------------------
+****Race:  E1: 876   vs   E2: 1034
+Event :876
+  --875
+---------------------->1 th child,    type is: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+  ----876
+
+Event :1034
+  --145
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ----503
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ------1034
+
+----------------------------------------------------
+****Race:  E1: 880   vs   E2: 1034
+Event :880
+  --879
+---------------------->1 th child,    type is: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+  ----880
+
+Event :1034
+  --145
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ----503
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ------1034
+
+----------------------------------------------------
+****Race:  E1: 924   vs   E2: 1034
+Event :924
+  --921
+---------------------->1 th child,    type is: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+  ----924
+
+Event :1034
+  --145
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ----503
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ------1034
+
+----------------------------------------------------
+****Race:  E1: 948   vs   E2: 1034
+Event :948
+  --947
+---------------------->1 th child,    type is: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+  ----948
+
+Event :1034
+  --145
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ----503
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ------1034
+
+----------------------------------------------------
+****Race:  E1: 977   vs   E2: 1034
+Event :977
+  --976
+---------------------->1 th child,    type is: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+  ----977
+
+Event :1034
+  --145
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ----503
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ------1034
+
+----------------------------------------------------
+****Race:  E1: 1006   vs   E2: 1034
+Event :1006
+  --1005
+---------------------->1 th child,    type is: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+  ----1006
+
+Event :1034
+  --145
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ----503
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ------1034
+
+----------------------------------------------------
+****Race:  E1: 1030   vs   E2: 1034
+Event :1030
+  --1029
+---------------------->1 th child,    type is: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+  ----1030
+
+Event :1034
+  --145
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ----503
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ------1034
+
+----------------------------------------------------
+****Race:  E1: 1034   vs   E2: 1057
+Event :1034
+  --145
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ----503
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ---

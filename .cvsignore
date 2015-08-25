@@ -1,0 +1,14 @@
+bin
+races
+DebugInfo
+fortune100_ae
+log4
+*.c
+log2
+log
+ER_86
+log1
+log3
+*.log2
+run
+logs

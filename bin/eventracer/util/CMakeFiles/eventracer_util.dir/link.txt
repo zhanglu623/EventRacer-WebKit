@@ -1,0 +1,2 @@
+/usr/bin/ar cr libeventracer_util.a  CMakeFiles/eventracer_util.dir/CallTraceBuilder.cpp.o CMakeFiles/eventracer_util.dir/EventGraphInfo.cpp.o CMakeFiles/eventracer_util.dir/GraphFix.cpp.o CMakeFiles/eventracer_util.dir/TimerGraph.cpp.o
+/usr/bin/ranlib libeventracer_util.a

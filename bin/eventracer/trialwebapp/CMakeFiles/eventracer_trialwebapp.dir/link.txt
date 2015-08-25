@@ -1,0 +1,2 @@
+/usr/bin/ar cr libeventracer_trialwebapp.a  CMakeFiles/eventracer_trialwebapp.dir/BrowserRunner.cpp.o
+/usr/bin/ranlib libeventracer_trialwebapp.a

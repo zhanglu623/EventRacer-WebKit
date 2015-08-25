@@ -1,0 +1,17 @@
+<script id = "race2a" class = "Lu_Inst">
+	if(!myVars) {var myVars = {};}
+	if(!myVars.races) {myVars.races= {};}
+	myVars.races.race2={};
+	myVars.races.race2.varName="Window[26].loginCK";
+	myVars.races.race2.event1={};
+	myVars.races.race2.event2={};
+	myVars.races.race2.event1.id = "Lu_Id_script_17";
+	myVars.races.race2.event1.type = "Lu_Id_script_17__parsed";
+	myVars.races.race2.event1.loc = "Lu_Id_script_17_LOC";
+	myVars.races.race2.event2.id = "Password";
+	myVars.races.race2.event2.type = "onkeydown";
+	myVars.races.race2.event2.loc = "Password_LOC";
+	myVars.races.race2.event1.executed= false;// true to disable, false to enable
+	myVars.races.race2.event2.executed= false;// true to disable, false to enable
+</script>
+

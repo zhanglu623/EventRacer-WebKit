@@ -1,0 +1,112 @@
+----------------------------------------------------
+New race: 175 , 183,  count: 1
+
+Event: 175
+Begin
+Token:
+83
+2
+Child :controllable
+1
+Type: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+1
+End
+Size: 2
+
+Event: 183
+Begin
+Token:
+73
+3
+Child :non-controllable
+1
+URL: http://ford.demdex.net/event?d_nsid=0&d_ld=_ts%3D1407776895060&c_host=www.ford.com&c_hostname=www.ford.com&c_protocol=http%3A&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_ford_0_1407776895060
+Child :non-controllable
+1
+URL: http://ford.demdex.net/firstevent?d_nsid=0&d_ld=_ts%3D1407776895060&c_host=www.ford.com&c_hostname=www.ford.com&c_protocol=http%3A&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_ford_0_1407776895060
+Child :non-controllable
+1
+URL: http://ford.demdex.net/firstevent?d_nsid=0&d_ld=_ts%3D1407776895060&c_host=www.ford.com&c_hostname=www.ford.com&c_protocol=http%3A&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_ford_0_1407776895060
+Child :controllable
+1
+Type: N7WebCore5TimerINS_12ScriptRunnerEEE
+1
+End
+Size: 5
+
+----------------------------------------------------
+New race: 2896 , 2943,  count: 2
+
+Event: 2896
+Begin
+Token:
+835
+1
+Child :controllable
+1
+Type: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+1
+End
+Size: 2
+
+Event: 2943
+Begin
+Token:
+830
+2
+Child :controllable
+1
+Type: N7WebCore5TimerINS_21ResourceLoadSchedulerEEE
+1
+Child :non-controllable
+1
+URL: http://core.insightexpressai.com/adserver/ia.js
+Child :non-controllable
+1
+URL: http://core.insightexpressai.com/adserver/ia.js
+Child :controllable
+1
+Type: N7WebCore5TimerINS_12ScriptRunnerEEE
+1
+End
+Size: 5
+
+----------------------------------------------------
+New race: 183 , 3046,  count: 3
+
+Event: 183
+Begin
+Token:
+73
+3
+Child :non-controllable
+1
+URL: http://ford.demdex.net/event?d_nsid=0&d_ld=_ts%3D1407776895060&c_host=www.ford.com&c_hostname=www.ford.com&c_protocol=http%3A&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_ford_0_1407776895060
+Child :non-controllable
+1
+URL: http://ford.demdex.net/firstevent?d_nsid=0&d_ld=_ts%3D1407776895060&c_host=www.ford.com&c_hostname=www.ford.com&c_protocol=http%3A&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_ford_0_1407776895060
+Child :non-controllable
+1
+URL: http://ford.demdex.net/firstevent?d_nsid=0&d_ld=_ts%3D1407776895060&c_host=www.ford.com&c_hostname=www.ford.com&c_protocol=http%3A&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_ford_0_1407776895060
+Child :controllable
+1
+Type: N7WebCore5TimerINS_12ScriptRunnerEEE
+1
+End
+Size: 5
+
+Event: 3046
+Begin
+Token:
+891
+1
+Child :controllable
+1
+Type: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+1
+End
+Size: 2
+
+----------------------------------------------------
+New race: 11 , 7678,  count: 4
+

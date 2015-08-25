@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jack/src/EventRacer/src/eventracer/input/ActionLog.h
+stdio.h
+-
+map
+-
+set
+-
+vector
+-
+
+/home/jack/src/EventRacer/src/eventracer/races/EventGraph.h
+stddef.h
+-
+vector
+-
+set
+-
+utility
+-
+
+/home/jack/src/EventRacer/src/eventracer/util/CallTraceBuilder.cpp
+CallTraceBuilder.h
+/home/jack/src/EventRacer/src/eventracer/util/CallTraceBuilder.h
+EventGraph.h
+/home/jack/src/EventRacer/src/eventracer/util/EventGraph.h
+ActionLog.h
+/home/jack/src/EventRacer/src/eventracer/util/ActionLog.h
+algorithm
+-
+utility
+-
+
+/home/jack/src/EventRacer/src/eventracer/util/CallTraceBuilder.h
+vector
+-
+

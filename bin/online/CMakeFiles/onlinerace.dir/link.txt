@@ -1,0 +1,2 @@
+/usr/bin/ar cr libonlinerace.a  CMakeFiles/onlinerace.dir/VCRaceDetector.cpp.o
+/usr/bin/ranlib libonlinerace.a

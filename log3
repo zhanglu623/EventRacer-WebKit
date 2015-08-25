@@ -1,0 +1,140 @@
+Loading ../webkit/ER_actionlog... DONE
+bin/eventracer/webapp/raceanalyzer
+../webkit/ER_actionlog
+../webkit/zlLog.txt
+../webkit/DebugInfo/token
+RaceInfo
+
+Created graph with 14480 nodes, 21920 arcs.
+Changed 0 arcs to make independent graph exploration.
+Added 22 script arcs
+Added 0 event arcs
+All variables loaded.
+Building timers graph...
+Using 1852 timed arcs
+Adding timed arcs 53.941685% done. 542 arcs added.
+Timers added 555 new arcs
+Timers graph done (54 ms).
+Checking for races...
+ThreadMapping: Computing threads...
+graph.numNodes: 14480
+ThreadMapping: Found 72 threads for 6 ms
+ThreadMapping: Computing vector clocks...
+ThreadMapping: Vector clocks done... (8 ms)
+Has 3 vars with WW races, 9 with RW and 13 with WR.
+Searching for race dependency...
+Searching for multi-race dependency...
+Using 9 uncovered races
+0 are multi-covered
+Race size: 26
+----------------------------------------------------
+****Race:  E1: 542   vs   E2: 894
+Event :542
+  --162
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ----542
+
+Event :894
+  --893
+---------------------->1 th child,    type is: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+  ----894
+
+----------------------------------------------------
+****Race:  E1: 894   vs   E2: 1122
+Event :894
+  --893
+---------------------->1 th child,    type is: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+  ----894
+
+Event :1122
+  --162
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ----542
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ------1122
+
+----------------------------------------------------
+****Race:  E1: 1121   vs   E2: 1122
+Event :1121
+  --1120
+---------------------->1 th child,    type is: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+  ----1121
+
+Event :1122
+  --162
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ----542
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ------1122
+
+----------------------------------------------------
+****Race:  E1: 1122   vs   E2: 1133
+Event :1122
+  --162
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ----542
+---------------------->1 th child,    type is: N7WebCore8DOMTimerE
+  ------1122
+
+Event :1133
+  --1132
+---------------------->1 th child,    type is: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+  ----1133
+
+----------------------------------------------------
+****Race:  E1: 9013   vs   E2: 9247
+Event :9013
+  --9012
+---------------------->1 th child,    type is: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+  ----9013
+
+Event :9247
+  --9006
+---------------------->1 th child,    type is: NotTimer
+  ----9241
+---------------------->1 th child,    type is: NotTimer
+  ------9242
+---------------------->1 th child,    type is: NotTimer
+  --------9243
+---------------------->1 th child,    type is: N7WebCore5TimerINS_12ScriptRunnerEEE
+  ----------9247
+
+----------------------------------------------------
+****Race:  E1: 9278   vs   E2: 13490
+Event :9278
+  --9030
+---------------------->1 th child,    type is: N7WebCore5TimerINS_9FrameViewEEE
+  ----9032
+---------------------->1 th child,    type is: N7WebCore5TimerINS_15CSSFontSelectorEEE
+  ------9034
+---------------------->1 th child,    type is: NotTimer
+  --------9234
+---------------------->1 th child,    type is: N7WebCore5TimerINS_12EventHandlerEEE
+  ----------9278
+
+Event :13490
+  --13489
+---------------------->1 th child,    type is: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+  ----13490
+
+----------------------------------------------------
+****Race:  E1: 13511   vs   E2: 13514
+Event :13511
+  --13510
+---------------------->1 th child,    type is: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+  ----13511
+
+Event :13514
+  --13477
+---------------------->1 th child,    type is: NotTimer
+  ----13491
+---------------------->1 th child,    type is: NotTimer
+  ------13492
+---------------------->1 th child,    type is: NotTimer
+  --------13493
+---------------------->1 th child,    type is: NotTimer
+  ----------13512
+---------------------->1 th child,    type is: NotTimer
+  ------------13513
+---------------------->1 th child,    type is: NotTimer
+  ----

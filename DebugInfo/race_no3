@@ -1,0 +1,351 @@
+----------------------------------------------------
+New race: 226 , 373,  count: 1
+
+Event: 226
+Begin
+Token:
+83
+2
+Child :controllable
+1
+Type: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+1
+End
+Size: 2
+
+Event: 373
+Begin
+Token:
+73
+4
+Child :non-controllable
+1
+URL: http://ford.demdex.net/event?d_nsid=0&d_ld=_ts%3D1407517333326&c_host=zhanglu623.altervista.org&c_hostname=zhanglu623.altervista.org&c_pathname=ford3%2Fwww.ford.com%2Findex.htm&c_protocol=http%3A&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_ford_0_1407517333326
+Child :non-controllable
+1
+URL: http://ford.demdex.net/firstevent?d_nsid=0&d_ld=_ts%3D1407517333326&c_host=zhanglu623.altervista.org&c_hostname=zhanglu623.altervista.org&c_pathname=ford3%2Fwww.ford.com%2Findex.htm&c_protocol=http%3A&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_ford_0_1407517333326
+Child :non-controllable
+1
+URL: http://ford.demdex.net/firstevent?d_nsid=0&d_ld=_ts%3D1407517333326&c_host=zhanglu623.altervista.org&c_hostname=zhanglu623.altervista.org&c_pathname=ford3%2Fwww.ford.com%2Findex.htm&c_protocol=http%3A&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_ford_0_1407517333326
+Child :controllable
+1
+Type: N7WebCore5TimerINS_12ScriptRunnerEEE
+1
+End
+Size: 5
+
+----------------------------------------------------
+New race: 756 , 885,  count: 2
+
+Event: 756
+Begin
+Token:
+75
+3
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+4
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+3
+End
+Size: 3
+
+Event: 885
+Begin
+Token:
+236
+2
+Child :controllable
+1
+Type: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+1
+End
+Size: 2
+
+----------------------------------------------------
+New race: 885 , 1013,  count: 3
+
+Event: 885
+Begin
+Token:
+236
+2
+Child :controllable
+1
+Type: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+1
+End
+Size: 2
+
+Event: 1013
+Begin
+Token:
+75
+3
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+4
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+3
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+3
+End
+Size: 4
+
+----------------------------------------------------
+New race: 890 , 1013,  count: 4
+
+Event: 890
+Begin
+Token:
+237
+2
+Child :controllable
+1
+Type: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+1
+End
+Size: 2
+
+Event: 1013
+Begin
+Token:
+75
+3
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+4
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+3
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+3
+End
+Size: 4
+
+----------------------------------------------------
+New race: 918 , 1013,  count: 5
+
+Event: 918
+Begin
+Token:
+243
+2
+Child :controllable
+1
+Type: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+1
+End
+Size: 2
+
+Event: 1013
+Begin
+Token:
+75
+3
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+4
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+3
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+3
+End
+Size: 4
+
+----------------------------------------------------
+New race: 945 , 1013,  count: 6
+
+Event: 945
+Begin
+Token:
+249
+2
+Child :controllable
+1
+Type: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+1
+End
+Size: 2
+
+Event: 1013
+Begin
+Token:
+75
+3
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+4
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+3
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+3
+End
+Size: 4
+
+----------------------------------------------------
+New race: 972 , 1013,  count: 7
+
+Event: 972
+Begin
+Token:
+255
+2
+Child :controllable
+1
+Type: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+1
+End
+Size: 2
+
+Event: 1013
+Begin
+Token:
+75
+3
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+4
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+3
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+3
+End
+Size: 4
+
+----------------------------------------------------
+New race: 998 , 1013,  count: 8
+
+Event: 998
+Begin
+Token:
+261
+2
+Child :controllable
+1
+Type: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+1
+End
+Size: 2
+
+Event: 1013
+Begin
+Token:
+75
+3
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+4
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+3
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+3
+End
+Size: 4
+
+----------------------------------------------------
+New race: 1013 , 1030,  count: 9
+
+Event: 1013
+Begin
+Token:
+75
+3
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+4
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+3
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+3
+End
+Size: 4
+
+Event: 1030
+Begin
+Token:
+267
+2
+Child :controllable
+1
+Type: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+1
+End
+Size: 2
+
+----------------------------------------------------
+New race: 373 , 8865,  count: 10
+
+Event: 373
+Begin
+Token:
+73
+4
+Child :non-controllable
+1
+URL: http://ford.demdex.net/event?d_nsid=0&d_ld=_ts%3D1407517333326&c_host=zhanglu623.altervista.org&c_hostname=zhanglu623.altervista.org&c_pathname=ford3%2Fwww.ford.com%2Findex.htm&c_protocol=http%3A&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_ford_0_1407517333326
+Child :non-controllable
+1
+URL: http://ford.demdex.net/firstevent?d_nsid=0&d_ld=_ts%3D1407517333326&c_host=zhanglu623.altervista.org&c_hostname=zhanglu623.altervista.org&c_pathname=ford3%2Fwww.ford.com%2Findex.htm&c_protocol=http%3A&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_ford_0_1407517333326
+Child :non-controllable
+1
+URL: http://ford.demdex.net/firstevent?d_nsid=0&d_ld=_ts%3D1407517333326&c_host=zhanglu623.altervista.org&c_hostname=zhanglu623.altervista.org&c_pathname=ford3%2Fwww.ford.com%2Findex.htm&c_protocol=http%3A&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_ford_0_1407517333326
+Child :controllable
+1
+Type: N7WebCore5TimerINS_12ScriptRunnerEEE
+1
+End
+Size: 5
+
+Event: 8865
+Begin
+Token:
+1833
+1
+Child :controllable
+1
+Type: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+1
+End
+Size: 2
+
+----------------------------------------------------
+New race: 11 , 13310,  count: 11
+

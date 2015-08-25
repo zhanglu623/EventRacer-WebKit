@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wno-long-long -g    CMakeFiles/web_ra.dir/WebRaceAnalyzer.cpp.o  -o web_ra -rdynamic ../webapp/libeventracer_webapp.a libeventracer_trialwebapp.a ../filters/libeventracer_filters.a ../util/libeventracer_util.a ../races/libeventracer_races.a ../../util/libutil.a ../../base/libbase.a ../input/libeventracer_input.a -Wl,-Bstatic -lgflags -Wl,-Bdynamic -lpthread -ldl 

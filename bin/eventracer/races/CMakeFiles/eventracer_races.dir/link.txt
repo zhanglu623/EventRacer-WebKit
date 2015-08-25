@@ -1,0 +1,2 @@
+/usr/bin/ar cr libeventracer_races.a  CMakeFiles/eventracer_races.dir/BitClocks.cpp.o CMakeFiles/eventracer_races.dir/EventGraph.cpp.o CMakeFiles/eventracer_races.dir/ThreadMapping.cpp.o CMakeFiles/eventracer_races.dir/VarsInfo.cpp.o
+/usr/bin/ranlib libeventracer_races.a

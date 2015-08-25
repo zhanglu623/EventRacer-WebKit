@@ -1,0 +1,207 @@
+New race: 141 , 191,  count: 1
+
+Event: 141
+Begin
+Token:
+75
+2
+Child :controllable
+1
+Type: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+1
+End
+Size: 2
+
+Event: 191
+Begin
+Token:
+73
+3
+Child :non-controllable
+1
+URL: http://ford.demdex.net/event?d_nsid=0&d_ld=_ts%3D1404335972506&c_host=www.ford.com&c_hostname=www.ford.com&c_protocol=http%3A&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_ford_0_1404335972506
+Child :non-controllable
+1
+URL: http://ford.demdex.net/firstevent?d_nsid=0&d_ld=_ts%3D1404335972506&c_host=www.ford.com&c_hostname=www.ford.com&c_protocol=http%3A&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_ford_0_1404335972506
+Child :non-controllable
+1
+URL: http://ford.demdex.net/firstevent?d_nsid=0&d_ld=_ts%3D1404335972506&c_host=www.ford.com&c_hostname=www.ford.com&c_protocol=http%3A&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_ford_0_1404335972506
+Child :controllable
+1
+Type: N7WebCore5TimerINS_12ScriptRunnerEEE
+1
+End
+Size: 5
+
+New race: 191 , 208,  count: 2
+
+Event: 191
+Begin
+Token:
+73
+3
+Child :non-controllable
+1
+URL: http://ford.demdex.net/event?d_nsid=0&d_ld=_ts%3D1404335972506&c_host=www.ford.com&c_hostname=www.ford.com&c_protocol=http%3A&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_ford_0_1404335972506
+Child :non-controllable
+1
+URL: http://ford.demdex.net/firstevent?d_nsid=0&d_ld=_ts%3D1404335972506&c_host=www.ford.com&c_hostname=www.ford.com&c_protocol=http%3A&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_ford_0_1404335972506
+Child :non-controllable
+1
+URL: http://ford.demdex.net/firstevent?d_nsid=0&d_ld=_ts%3D1404335972506&c_host=www.ford.com&c_hostname=www.ford.com&c_protocol=http%3A&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_ford_0_1404335972506
+Child :controllable
+1
+Type: N7WebCore5TimerINS_12ScriptRunnerEEE
+1
+End
+Size: 5
+
+Event: 208
+Begin
+Token:
+83
+3
+Child :non-controllable
+1
+URL: http://www.ford.com/resources/ford/general/js/mbox.js
+End
+Size: 2
+
+New race: 3007 , 7867,  count: 3
+
+Event: 3007
+Begin
+Token:
+835
+1
+Child :controllable
+1
+Type: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+1
+End
+Size: 2
+
+Event: 7867
+Begin
+Token:
+830
+2
+Child :controllable
+1
+Type: N7WebCore5TimerINS_21ResourceLoadSchedulerEEE
+1
+Child :non-controllable
+1
+URL: http://core.insightexpressai.com/adserver/ia.js
+Child :non-controllable
+1
+URL: http://core.insightexpressai.com/adserver/ia.js
+Child :controllable
+1
+Type: N7WebCore5TimerINS_12ScriptRunnerEEE
+1
+End
+Size: 5
+
+New race: 7901 , 7911,  count: 4
+
+New race: 7911 , 7912,  count: 5
+
+New race: 7912 , 7924,  count: 6
+
+New race: 7924 , 7925,  count: 7
+
+New race: 7909 , 7925,  count: 8
+
+Event: 7909
+Begin
+Token:
+1719
+2
+Child :controllable
+1
+Type: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+1
+End
+Size: 2
+
+Event: 7925
+Begin
+Token:
+1717
+2
+Child :non-controllable
+1
+URL: http://www.ford.com/services/geo/PostalCodes.json?postalCode=24060
+Child :non-controllable
+1
+URL: http://www.ford.com/services/geo/PostalCodes.json?postalCode=24060
+Child :non-controllable
+1
+URL: http://www.ford.com/core-services/dealers/byzipcode.json?zipCode=24060&distance=50&pageSize=1&pageIndex=1
+Child :non-controllable
+1
+URL: http://www.ford.com/core-services/dealers/byzipcode.json?zipCode=24060&distance=50&pageSize=1&pageIndex=1
+End
+Size: 5
+
+New race: 7925 , 7951,  count: 9
+
+Event: 7925
+Begin
+Token:
+1717
+2
+Child :non-controllable
+1
+URL: http://www.ford.com/services/geo/PostalCodes.json?postalCode=24060
+Child :non-controllable
+1
+URL: http://www.ford.com/services/geo/PostalCodes.json?postalCode=24060
+Child :non-controllable
+1
+URL: http://www.ford.com/core-services/dealers/byzipcode.json?zipCode=24060&distance=50&pageSize=1&pageIndex=1
+Child :non-controllable
+1
+URL: http://www.ford.com/core-services/dealers/byzipcode.json?zipCode=24060&distance=50&pageSize=1&pageIndex=1
+End
+Size: 5
+
+Event: 7951
+Begin
+Token:
+1722
+2
+Child :controllable
+1
+Type: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+1
+End
+Size: 2
+
+New race: 7964 , 8155,  count: 10
+
+Event: 7964
+Begin
+Token:
+1723
+2
+Child :controllable
+1
+Type: N7WebCore5TimerINS_19HTMLParserSchedulerEEE
+1
+End
+Size: 2
+
+Event: 8155
+Begin
+Token:
+1722
+3
+Child :controllable
+1
+Type: N7WebCore8DOMTimerE
+12
+End
+Size: 2
+

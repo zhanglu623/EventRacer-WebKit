@@ -1,0 +1,2 @@
+/usr/bin/ar cr libutil.a  CMakeFiles/util.dir/Escaping.cpp.o CMakeFiles/util.dir/UrlEncoding.cpp.o
+/usr/bin/ranlib libutil.a

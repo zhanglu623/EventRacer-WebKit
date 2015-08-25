@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jack/src/EventRacer/src/base/stringprintf.h
+stdarg.h
+-
+string
+-
+
+/home/jack/src/EventRacer/src/util/Escaping.cpp
+Escaping.h
+/home/jack/src/EventRacer/src/util/Escaping.h
+
+/home/jack/src/EventRacer/src/util/Escaping.h
+string
+-
+
+/home/jack/src/EventRacer/src/util/UrlEncoding.cpp
+ctype.h
+-
+stdio.h
+-
+string.h
+-
+UrlEncoding.h
+/home/jack/src/EventRacer/src/util/UrlEncoding.h
+stringprintf.h
+/home/jack/src/EventRacer/src/util/stringprintf.h
+
+/home/jack/src/EventRacer/src/util/UrlEncoding.h
+map
+-
+string
+-
+vector
+-
+

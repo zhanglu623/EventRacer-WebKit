@@ -1,0 +1,549 @@
+Loading ../webkit/ER_actionlog... DONE
+0: bin/eventracer/webapp/raceanalyzer
+1: ../webkit/ER_actionlog
+RaceInfo
+
+Created graph with 2051 nodes, 3459 arcs.
+Delate Arc:  2023 ->  2025
+Delate Arc:  2025 ->  2026
+Delate Arc:  2026 ->  2027
+Delate Arc:  2027 ->  2028
+Delate Arc:  2028 ->  2029
+Delate Arc:  2029 ->  2030
+Delate Arc:  2030 ->  2033
+Delate Arc:  2033 ->  2034
+Delate Arc:  2034 ->  2035
+Delate Arc:  2035 ->  2036
+Delate Arc:  2036 ->  2037
+Changed 11 arcs to make independent graph exploration.
+Added 6 script arcs
+Added 24 event arcs
+All variables loaded.
+Building timers graph...
+Using 15 timed arcs
+Timers added 12 new arcs
+Timers graph done (2 ms).
+Checking for races...
+ThreadMapping: Computing threads...
+graph.numNodes: 2051
+ThreadMapping: Found 52 threads for 0 ms
+ThreadMapping: Computing vector clocks...
+ThreadMapping: Vector clocks done... (0 ms)
+At last: Race count: 15
+Has 1 vars with WW races, 1 with RW and 2 with WR.
+Searching for race dependency...
+Searching for multi-race dependency...
+Using 14 uncovered races
+0 are multi-covered
+At last2: Race count: 15
+Race size: 15
+----------------------------------------------------
+Done checking for races (2 ms)...
+Pre scan ends
+-------------------New Race Info: 1/15---------------------------
+
+
+--Race Info for latest replay
+--Var is:  8264 : #document[0x7fac355d1400].load
+2010  VS  2022
+
+------------------------------------------------
+check eid: 2010
+------------------------------------------------
+check eid: 2022
+--->Fire Event:load @ 0x7fac355c5700, TARGET  
+    
+--It's a firing event: Fire Event:load @ 0x7fac355c5700, TARGET  
+    
+--Type: load , ptr: 0x7fac355c5700 , id: 
+Not replayable!
+-------------------New Race Info: 2/15---------------------------
+
+
+--Race Info for latest replay
+--Var is:  8264 : #document[0x7fac355d1400].load
+2009  VS  2022
+
+------------------------------------------------
+check eid: 2009
+------------------------------------------------
+check eid: 2022
+--->Fire Event:load @ 0x7fac355c5700, TARGET  
+    
+--It's a firing event: Fire Event:load @ 0x7fac355c5700, TARGET  
+    
+--Type: load , ptr: 0x7fac355c5700 , id: 
+Not replayable!
+-------------------New Race Info: 3/15---------------------------
+
+
+--Race Info for latest replay
+--Var is:  8264 : #document[0x7fac355d1400].load
+2008  VS  2022
+
+------------------------------------------------
+check eid: 2008
+------------------------------------------------
+check eid: 2022
+--->Fire Event:load @ 0x7fac355c5700, TARGET  
+    
+--It's a firing event: Fire Event:load @ 0x7fac355c5700, TARGET  
+    
+--Type: load , ptr: 0x7fac355c5700 , id: 
+Not replayable!
+-------------------New Race Info: 5/15---------------------------
+
+
+--Race Info for latest replay
+--Var is:  8264 : #document[0x7fac355d1400].load
+797  VS  2022
+
+------------------------------------------------
+check eid: 797
+------------------------------------------------
+check eid: 2022
+--->Fire Event:load @ 0x7fac355c5700, TARGET  
+    
+--It's a firing event: Fire Event:load @ 0x7fac355c5700, TARGET  
+    
+--Type: load , ptr: 0x7fac355c5700 , id: 
+Not replayable!
+-------------------New Race Info: 6/15---------------------------
+
+
+--Race Info for latest replay
+--Var is:  8264 : #document[0x7fac355d1400].load
+124  VS  2022
+
+------------------------------------------------
+check eid: 124
+------------------------------------------------
+check eid: 2022
+--->Fire Event:load @ 0x7fac355c5700, TARGET  
+    
+--It's a firing event: Fire Event:load @ 0x7fac355c5700, TARGET  
+    
+--Type: load , ptr: 0x7fac355c5700 , id: 
+Not replayable!
+-------------------New Race Info: 7/15---------------------------
+
+
+--Race Info for latest replay
+--Var is:  8264 : #document[0x7fac355d1400].load
+120  VS  2022
+
+------------------------------------------------
+check eid: 120
+------------------------------------------------
+check eid: 2022
+--->Fire Event:load @ 0x7fac355c5700, TARGET  
+    
+--It's a firing event: Fire Event:load @ 0x7fac355c5700, TARGET  
+    
+--Type: load , ptr: 0x7fac355c5700 , id: 
+Not replayable!
+-------------------New Race Info: 8/15---------------------------
+
+
+--Race Info for latest replay
+--Var is:  8264 : #document[0x7fac355d1400].load
+108  VS  2022
+
+------------------------------------------------
+check eid: 108
+------------------------------------------------
+check eid: 2022
+--->Fire Event:load @ 0x7fac355c5700, TARGET  
+    
+--It's a firing event: Fire Event:load @ 0x7fac355c5700, TARGET  
+    
+--Type: load , ptr: 0x7fac355c5700 , id: 
+Not replayable!
+-------------------New Race Info: 9/15---------------------------
+
+
+--Race Info for latest replay
+--Var is:  8264 : #document[0x7fac355d1400].load
+99  VS  2022
+
+------------------------------------------------
+check eid: 99
+------------------------------------------------
+check eid: 2022
+--->Fire Event:load @ 0x7fac355c5700, TARGET  
+    
+--It's a firing event: Fire Event:load @ 0x7fac355c5700, TARGET  
+    
+--Type: load , ptr: 0x7fac355c5700 , id: 
+Not replayable!
+-------------------New Race Info: 10/15---------------------------
+
+
+--Race Info for latest replay
+--Var is:  65327 : JSActivation[674].o
+1978  VS  2022
+
+-------------------New Race Info: 11/15---------------------------
+
+
+--Race Info for latest replay
+--Var is:  28427 : Window[26].loginCK
+907  VS  2028
+
+------------------------------------------------
+check eid: 907
+907 : -It's a parsing event: 
+file:///home/jack/500/zhanglu623-seperate/www.regions.com/personal_banking.rf.htm_init0.html
+Original HTML : file:///home/jack/500/zhanglu623-seperate/www.regions.com/personal_banking.rf.htm_init0.html
+Current  HTML : file:///home/jack/500/zhanglu623-seperate/www.regions.com/personal_banking.rf.htm_init0.html
+--id  : Lu_Id_script_17
+------------------------------------------------
+check eid: 2028
+--->Fire Event:keydown @ 0x2367080, TARGET  
+            
+--It's a firing event: Fire Event:keydown @ 0x2367080, TARGET  
+            
+--Type: keydown , ptr: 0x2367080 , id: OnlineID
+Event 1 Id: Lu_Id_script_17
+Event 1 Tp: Lu_Id_script_17__parsed
+Event 2 Id: OnlineID
+Event 2 Tp: onkeydown
+e1: Lu_Id_script_17__Lu_Id_script_17__parsed
+e2: OnlineID__onkeydown
+<script id = "race1a" class = "Lu_Inst">
+	if(!myVars) {var myVars = {};}
+	if(!myVars.races) {myVars.races= {};}
+	myVars.races.race1={};
+	myVars.races.race1.varName="Window[26].loginCK";
+	myVars.races.race1.event1={};
+	myVars.races.race1.event2={};
+	myVars.races.race1.event1.id = "Lu_Id_script_17";
+	myVars.races.race1.event1.type = "Lu_Id_script_17__parsed";
+	myVars.races.race1.event1.loc = "Lu_Id_script_17_LOC";
+	myVars.races.race1.event2.id = "OnlineID";
+	myVars.races.race1.event2.type = "onkeydown";
+	myVars.races.race1.event2.loc = "OnlineID_LOC";
+	myVars.races.race1.event1.executed= false;// true to disable, false to enable
+	myVars.races.race1.event2.executed= false;// true to disable, false to enable
+</script>
+
+<script id = "race1b" class = "Lu_Inst">
+	if(!myVars) {var myVars = {};}
+	if(!myVars.races) {myVars.races= {};}
+	myVars.races.race1={};
+	myVars.races.race1.varName="Window[26].loginCK";
+	myVars.races.race1.event1={};
+	myVars.races.race1.event2={};
+	myVars.races.race1.event1.id = "OnlineID";
+	myVars.races.race1.event1.type = "onkeydown";
+	myVars.races.race1.event1.loc = "OnlineID_LOC";
+	myVars.races.race1.event2.id = "Lu_Id_script_17";
+	myVars.races.race1.event2.type = "Lu_Id_script_17__parsed";
+	myVars.races.race1.event2.loc = "Lu_Id_script_17_LOC";
+	myVars.races.race1.event1.executed= false;// true to disable, false to enable
+	myVars.races.race1.event2.executed= false;// true to disable, false to enable
+</script>
+
+mkdir: cannot create directory `races': File exists
+mv: cannot stat `races/race1a.txt2': No such file or directory
+mv: cannot stat `races/race1a.txt': No such file or directory
+mkdir: cannot create directory `races': File exists
+mv: cannot stat `races/race1b.txt2': No such file or directory
+mv: cannot stat `races/race1b.txt': No such file or directory
+-------------------New Race Info: 12/15---------------------------
+
+
+--Race Info for latest replay
+--Var is:  28427 : Window[26].loginCK
+907  VS  2029
+
+------------------------------------------------
+check eid: 907
+907 : -It's a parsing event: 
+file:///home/jack/500/zhanglu623-seperate/www.regions.com/personal_banking.rf.htm_init0.html
+Original HTML : file:///home/jack/500/zhanglu623-seperate/www.regions.com/personal_banking.rf.htm_init0.html
+Current  HTML : file:///home/jack/500/zhanglu623-seperate/www.regions.com/personal_banking.rf.htm_init0.html
+--id  : Lu_Id_script_17
+------------------------------------------------
+check eid: 2029
+--->Fire Event:keydown @ 0x236c0a0, TARGET  
+            
+--It's a firing event: Fire Event:keydown @ 0x236c0a0, TARGET  
+            
+--Type: keydown , ptr: 0x236c0a0 , id: Password
+Event 1 Id: Lu_Id_script_17
+Event 1 Tp: Lu_Id_script_17__parsed
+Event 2 Id: Password
+Event 2 Tp: onkeydown
+e1: Lu_Id_script_17__Lu_Id_script_17__parsed
+e2: Password__onkeydown
+<script id = "race2a" class = "Lu_Inst">
+	if(!myVars) {var myVars = {};}
+	if(!myVars.races) {myVars.races= {};}
+	myVars.races.race2={};
+	myVars.races.race2.varName="Window[26].loginCK";
+	myVars.races.race2.event1={};
+	myVars.races.race2.event2={};
+	myVars.races.race2.event1.id = "Lu_Id_script_17";
+	myVars.races.race2.event1.type = "Lu_Id_script_17__parsed";
+	myVars.races.race2.event1.loc = "Lu_Id_script_17_LOC";
+	myVars.races.race2.event2.id = "Password";
+	myVars.races.race2.event2.type = "onkeydown";
+	myVars.races.race2.event2.loc = "Password_LOC";
+	myVars.races.race2.event1.executed= false;// true to disable, false to enable
+	myVars.races.race2.event2.executed= false;// true to disable, false to enable
+</script>
+
+<script id = "race2b" class = "Lu_Inst">
+	if(!myVars) {var myVars = {};}
+	if(!myVars.races) {myVars.races= {};}
+	myVars.races.race2={};
+	myVars.races.race2.varName="Window[26].loginCK";
+	myVars.races.race2.event1={};
+	myVars.races.race2.event2={};
+	myVars.races.race2.event1.id = "Password";
+	myVars.races.race2.event1.type = "onkeydown";
+	myVars.races.race2.event1.loc = "Password_LOC";
+	myVars.races.race2.event2.id = "Lu_Id_script_17";
+	myVars.races.race2.event2.type = "Lu_Id_script_17__parsed";
+	myVars.races.race2.event2.loc = "Lu_Id_script_17_LOC";
+	myVars.races.race2.event1.executed= false;// true to disable, false to enable
+	myVars.races.race2.event2.executed= false;// true to disable, false to enable
+</script>
+
+mkdir: cannot create directory `races': File exists
+mv: cannot stat `races/race2a.txt2': No such file or directory
+mv: cannot stat `races/race2a.txt': No such file or directory
+mkdir: cannot create directory `races': File exists
+mv: cannot stat `races/race2b.txt2': No such file or directory
+mv: cannot stat `races/race2b.txt': No such file or directory
+-------------------New Race Info: 13/15---------------------------
+
+
+--Race Info for latest replay
+--Var is:  69142 : Window[26].status
+2033  VS  2034
+
+------------------------------------------------
+check eid: 2033
+--->Fire Event:mouseover @ 0x2242370, TARGET  
+            
+--It's a firing event: Fire Event:mouseover @ 0x2242370, TARGET  
+            
+--Type: mouseover , ptr: 0x2242370 , id: Lu_Id_div_7
+------------------------------------------------
+check eid: 2034
+--->Fire Event:mouseover @ 0x22417b0, TARGET  
+            
+--It's a firing event: Fire Event:mouseover @ 0x22417b0, TARGET  
+            
+--Type: mouseover , ptr: 0x22417b0 , id: Lu_Id_div_8
+Event 1 Id: Lu_Id_div_7
+Event 1 Tp: onmouseover
+Event 2 Id: Lu_Id_div_8
+Event 2 Tp: onmouseover
+e1: Lu_Id_div_7__onmouseover
+e2: Lu_Id_div_8__onmouseover
+<script id = "race3a" class = "Lu_Inst">
+	if(!myVars) {var myVars = {};}
+	if(!myVars.races) {myVars.races= {};}
+	myVars.races.race3={};
+	myVars.races.race3.varName="Window[26].status";
+	myVars.races.race3.event1={};
+	myVars.races.race3.event2={};
+	myVars.races.race3.event1.id = "Lu_Id_div_7";
+	myVars.races.race3.event1.type = "onmouseover";
+	myVars.races.race3.event1.loc = "Lu_Id_div_7_LOC";
+	myVars.races.race3.event2.id = "Lu_Id_div_8";
+	myVars.races.race3.event2.type = "onmouseover";
+	myVars.races.race3.event2.loc = "Lu_Id_div_8_LOC";
+	myVars.races.race3.event1.executed= false;// true to disable, false to enable
+	myVars.races.race3.event2.executed= false;// true to disable, false to enable
+</script>
+
+<script id = "race3b" class = "Lu_Inst">
+	if(!myVars) {var myVars = {};}
+	if(!myVars.races) {myVars.races= {};}
+	myVars.races.race3={};
+	myVars.races.race3.varName="Window[26].status";
+	myVars.races.race3.event1={};
+	myVars.races.race3.event2={};
+	myVars.races.race3.event1.id = "Lu_Id_div_8";
+	myVars.races.race3.event1.type = "onmouseover";
+	myVars.races.race3.event1.loc = "Lu_Id_div_8_LOC";
+	myVars.races.race3.event2.id = "Lu_Id_div_7";
+	myVars.races.race3.event2.type = "onmouseover";
+	myVars.races.race3.event2.loc = "Lu_Id_div_7_LOC";
+	myVars.races.race3.event1.executed= false;// true to disable, false to enable
+	myVars.races.race3.event2.executed= false;// true to disable, false to enable
+</script>
+
+mkdir: cannot create directory `races': File exists
+mv: cannot stat `races/race3a.txt2': No such file or directory
+mv: cannot stat `races/race3a.txt': No such file or directory
+mkdir: cannot create directory `races': File exists
+mv: cannot stat `races/race3b.txt2': No such file or directory
+mv: cannot stat `races/race3b.txt': No such file or directory
+-------------------New Race Info: 14/15---------------------------
+
+
+--Race Info for latest replay
+--Var is:  69142 : Window[26].status
+2034  VS  2035
+
+------------------------------------------------
+check eid: 2034
+--->Fire Event:mouseover @ 0x22417b0, TARGET  
+            
+--It's a firing event: Fire Event:mouseover @ 0x22417b0, TARGET  
+            
+--Type: mouseover , ptr: 0x22417b0 , id: Lu_Id_div_8
+------------------------------------------------
+check eid: 2035
+--->Fire Event:mouseout @ 0x2242370, TARGET  
+            
+--It's a firing event: Fire Event:mouseout @ 0x2242370, TARGET  
+            
+--Type: mouseout , ptr: 0x2242370 , id: Lu_Id_div_7
+Event 1 Id: Lu_Id_div_8
+Event 1 Tp: onmouseover
+Event 2 Id: Lu_Id_div_7
+Event 2 Tp: onmouseout
+e1: Lu_Id_div_8__onmouseover
+e2: Lu_Id_div_7__onmouseout
+<script id = "race4a" class = "Lu_Inst">
+	if(!myVars) {var myVars = {};}
+	if(!myVars.races) {myVars.races= {};}
+	myVars.races.race4={};
+	myVars.races.race4.varName="Window[26].status";
+	myVars.races.race4.event1={};
+	myVars.races.race4.event2={};
+	myVars.races.race4.event1.id = "Lu_Id_div_8";
+	myVars.races.race4.event1.type = "onmouseover";
+	myVars.races.race4.event1.loc = "Lu_Id_div_8_LOC";
+	myVars.races.race4.event2.id = "Lu_Id_div_7";
+	myVars.races.race4.event2.type = "onmouseout";
+	myVars.races.race4.event2.loc = "Lu_Id_div_7_LOC";
+	myVars.races.race4.event1.executed= false;// true to disable, false to enable
+	myVars.races.race4.event2.executed= false;// true to disable, false to enable
+</script>
+
+<script id = "race4b" class = "Lu_Inst">
+	if(!myVars) {var myVars = {};}
+	if(!myVars.races) {myVars.races= {};}
+	myVars.races.race4={};
+	myVars.races.race4.varName="Window[26].status";
+	myVars.races.race4.event1={};
+	myVars.races.race4.event2={};
+	myVars.races.race4.event1.id = "Lu_Id_div_7";
+	myVars.races.race4.event1.type = "onmouseout";
+	myVars.races.race4.event1.loc = "Lu_Id_div_7_LOC";
+	myVars.races.race4.event2.id = "Lu_Id_div_8";
+	myVars.races.race4.event2.type = "onmouseover";
+	myVars.races.race4.event2.loc = "Lu_Id_div_8_LOC";
+	myVars.races.race4.event1.executed= false;// true to disable, false to enable
+	myVars.races.race4.event2.executed= false;// true to disable, false to enable
+</script>
+
+mkdir: cannot create directory `races': File exists
+mv: cannot stat `races/race4a.txt2': No such file or directory
+mv: cannot stat `races/race4a.txt': No such file or directory
+mkdir: cannot create directory `races': File exists
+mv: cannot stat `races/race4b.txt2': No such file or directory
+mv: cannot stat `races/race4b.txt': No such file or directory
+-------------------New Race Info: 15/15---------------------------
+
+
+--Race Info for latest replay
+--Var is:  69142 : Window[26].status
+2035  VS  2036
+
+------------------------------------------------
+check eid: 2035
+--->Fire Event:mouseout @ 0x2242370, TARGET  
+            
+--It's a firing event: Fire Event:mouseout @ 0x2242370, TARGET  
+            
+--Type: mouseout , ptr: 0x2242370 , id: Lu_Id_div_7
+------------------------------------------------
+check eid: 2036
+--->Fire Event:mouseout @ 0x22417b0, TARGET  
+            
+--It's a firing event: Fire Event:mouseout @ 0x22417b0, TARGET  
+            
+--Type: mouseout , ptr: 0x22417b0 , id: Lu_Id_div_8
+Event 1 Id: Lu_Id_div_7
+Event 1 Tp: onmouseout
+Event 2 Id: Lu_Id_div_8
+Event 2 Tp: onmouseout
+e1: Lu_Id_div_7__onmouseout
+e2: Lu_Id_div_8__onmouseout
+<script id = "race5a" class = "Lu_Inst">
+	if(!myVars) {var myVars = {};}
+	if(!myVars.races) {myVars.races= {};}
+	myVars.races.race5={};
+	myVars.races.race5.varName="Window[26].status";
+	myVars.races.race5.event1={};
+	myVars.races.race5.event2={};
+	myVars.races.race5.event1.id = "Lu_Id_div_7";
+	myVars.races.race5.event1.type = "onmouseout";
+	myVars.races.race5.event1.loc = "Lu_Id_div_7_LOC";
+	myVars.races.race5.event2.id = "Lu_Id_div_8";
+	myVars.races.race5.event2.type = "onmouseout";
+	myVars.races.race5.event2.loc = "Lu_Id_div_8_LOC";
+	myVars.races.race5.event1.executed= false;// true to disable, false to enable
+	myVars.races.race5.event2.executed= false;// true to disable, false to enable
+</script>
+
+<script id = "race5b" class = "Lu_Inst">
+	if(!myVars) {var myVars = {};}
+	if(!myVars.races) {myVars.races= {};}
+	myVars.races.race5={};
+	myVars.races.race5.varName="Window[26].status";
+	myVars.races.race5.event1={};
+	myVars.races.race5.event2={};
+	myVars.races.race5.event1.id = "Lu_Id_div_8";
+	myVars.races.race5.event1.type = "onmouseout";
+	myVars.races.race5.event1.loc = "Lu_Id_div_8_LOC";
+	myVars.races.race5.event2.id = "Lu_Id_div_7";
+	myVars.races.race5.event2.type = "onmouseout";
+	myVars.races.race5.event2.loc = "Lu_Id_div_7_LOC";
+	myVars.races.race5.event1.executed= false;// true to disable, false to enable
+	myVars.races.race5.event2.executed= false;// true to disable, false to enable
+</script>
+
+mkdir: cannot create directory `races': File exists
+mv: cannot stat `races/race5a.txt2': No such file or directory
+mv: cannot stat `races/race5a.txt': No such file or directory
+mkdir: cannot create directory `races': File exists
+mv: cannot stat `races/race5b.txt2': No such file or directory
+mv: cannot stat `races/race5b.txt': No such file or directory
+Final uncovered    :   14
+Final replayable   :   5
+Final non-replayble:   0
+Final ajax_race    :   0
+Final sync_race    :   0
+Final timer_race   :   0
+Final bogus_race   :   0
+Final closure_race :   1
+Final bubble_race  :   0
+Final no_info      :   0
+Final unhandled    :   8
+
+Filtered Duplicated   :   0
+Total races: 15, replable: 5.
+Web server started on port 8000. Open http://localhost:8000/ in your browser...
+Handling request='/favicon.ico' with params=''
+Handling request='/varlist' with params=''
+Window[26].loginCK
+ <a href="undef?var=28427">initialization race1</a> 
+#document[0x7fac355d1400].load
+ <a href="undef?var=8264"></a> 
+JSActivation[674].o
+MAYBE_LAZY_INIT <a href="undef?var=65327"></a> 
+Window[26].status
+ONLY_LOCAL_WRITE <a href="undef?var=69142"></a> 
+Can't start /usr/bin/dot -Tcmapx -o /tmp/raceanalyzer/hb0_4294967295.map -Tgif -o /tmp/raceanalyzer/hb0_4294967295.gif /tmp/raceanalyzer/hb0_4294967295.dot
+Can't start /usr/bin/dot -Tcmapx -o /tmp/raceanalyzer/hb0_4294967295.map -Tgif -o /tmp/raceanalyzer/hb0_4294967295.gif /tmp/raceanalyzer/hb0_4294967295.dot
+Can't start /usr/bin/dot -Tcmapx -o /tmp/raceanalyzer/hb0_4294967295.map -Tgif -o /tmp/raceanalyzer/hb0_4294967295.gif /tmp/raceanalyzer/hb0_4294967295.dot
+Can't start /usr/bin/dot -Tcmapx -o /tmp/raceanalyzer/hb0_4294967295.map -Tgif -o /tmp/raceanalyzer/hb0_4294967295.gif /tmp/raceanalyzer/hb0_4294967295.dot

@@ -1,0 +1,193 @@
+Loading ../webkit/ER_actionlog... DONE
+bin/eventracer/webapp/raceanalyzer
+../webkit/ER_actionlog
+../webkit/zlLog.txt
+../webkit/DebugInfo/token
+RaceInfo
+
+Created graph with 14352 nodes, 21731 arcs.
+Changed 0 arcs to make independent graph exploration.
+Added 18 script arcs
+Added 1 event arcs
+All variables loaded.
+Building timers graph...
+Using 1838 timed arcs
+Adding timed arcs 54.352557% done. 537 arcs added.
+Timers added 550 new arcs
+Timers graph done (48 ms).
+Checking for races...
+ThreadMapping: Computing threads...
+graph.numNodes: 14352
+ThreadMapping: Found 74 threads for 6 ms
+ThreadMapping: Computing vector clocks...
+ThreadMapping: Vector clocks done... (7 ms)
+Has 3 vars with WW races, 10 with RW and 10 with WR.
+Searching for race dependency...
+Searching for multi-race dependency...
+Using 14 uncovered races
+0 are multi-covered
+Race size: 24
+----------------------------------------------------
+****Race:  E1: 539   vs   E2: 890
+Event :539
+  --160
+---------------------->5 th child
+  ----539
+
+Event :890
+  --889
+---------------------->1 th child
+  ----890
+
+----------------------------------------------------
+****Race:  E1: 890   vs   E2: 1042
+Event :890
+  --889
+---------------------->1 th child
+  ----890
+
+Event :1042
+  --160
+---------------------->5 th child
+  ----539
+---------------------->3 th child
+  ------1042
+
+----------------------------------------------------
+****Race:  E1: 894   vs   E2: 1042
+Event :894
+  --893
+---------------------->1 th child
+  ----894
+
+Event :1042
+  --160
+---------------------->5 th child
+  ----539
+---------------------->3 th child
+  ------1042
+
+----------------------------------------------------
+****Race:  E1: 927   vs   E2: 1042
+Event :927
+  --926
+---------------------->1 th child
+  ----927
+
+Event :1042
+  --160
+---------------------->5 th child
+  ----539
+---------------------->3 th child
+  ------1042
+
+----------------------------------------------------
+****Race:  E1: 958   vs   E2: 1042
+Event :958
+  --957
+---------------------->1 th child
+  ----958
+
+Event :1042
+  --160
+---------------------->5 th child
+  ----539
+---------------------->3 th child
+  ------1042
+
+----------------------------------------------------
+****Race:  E1: 982   vs   E2: 1042
+Event :982
+  --981
+---------------------->1 th child
+  ----982
+
+Event :1042
+  --160
+---------------------->5 th child
+  ----539
+---------------------->3 th child
+  ------1042
+
+----------------------------------------------------
+****Race:  E1: 1013   vs   E2: 1042
+Event :1013
+  --1012
+---------------------->1 th child
+  ----1013
+
+Event :1042
+  --160
+---------------------->5 th child
+  ----539
+---------------------->3 th child
+  ------1042
+
+----------------------------------------------------
+****Race:  E1: 1037   vs   E2: 1042
+Event :1037
+  --1036
+---------------------->1 th child
+  ----1037
+
+Event :1042
+  --160
+---------------------->5 th child
+  ----539
+---------------------->3 th child
+  ------1042
+
+----------------------------------------------------
+****Race:  E1: 1042   vs   E2: 1064
+Event :1042
+  --160
+---------------------->5 th child
+  ----539
+---------------------->3 th child
+  ------1042
+
+Event :1064
+  --1063
+---------------------->1 th child
+  ----1064
+
+----------------------------------------------------
+****Race:  E1: 8938   vs   E2: 9094
+Event :8938
+  --8937
+---------------------->1 th child
+  ----8938
+
+Event :9094
+  --8931
+---------------------->4 th child
+  ----9091
+---------------------->1 th child
+  ------9092
+---------------------->1 th child
+  --------9093
+---------------------->1 th child
+  ----------9094
+
+----------------------------------------------------
+****Race:  E1: 9195   vs   E2: 13380
+Error, not all events find a parsing predecessor!
+----------------------------------------------------
+****Race:  E1: 13401   vs   E2: 13404
+Event :13401
+  --13400
+---------------------->1 th child
+  ----13401
+
+Event :13404
+  --13367
+---------------------->3 th child
+  ----13381
+---------------------->1 th child
+  ------13382
+---------------------->1 th child
+  --------13383
+---------------------->4 th child
+  ----------13402
+---------------------->1 th child
+  ------------134

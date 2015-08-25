@@ -1,0 +1,2 @@
+/usr/bin/ar cr libeventracer_tool.a  CMakeFiles/eventracer_tool.dir/RaceStats.cpp.o
+/usr/bin/ranlib libeventracer_tool.a

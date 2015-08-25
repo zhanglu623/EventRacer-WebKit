@@ -1,0 +1,2 @@
+/usr/bin/ar cr libeventracer_input.a  CMakeFiles/eventracer_input.dir/ActionLog.cpp.o CMakeFiles/eventracer_input.dir/StringSet.cpp.o CMakeFiles/eventracer_input.dir/RaceInfo.cpp.o
+/usr/bin/ranlib libeventracer_input.a
