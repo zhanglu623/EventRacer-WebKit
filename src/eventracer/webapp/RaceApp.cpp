@@ -376,8 +376,12 @@ RaceApp::RaceApp(int64 app_id, const std::string& actionLogFile) :
 				}
 			}
 
-			if (skipRace == true)
+			if (skipRace == true) {
 				continue;
+			} else {
+				existing_races[curr_race] = 1;
+
+			}
 
 			cout << "Pre scan check : " << var_name << endl;
 
@@ -486,8 +490,10 @@ RaceApp::RaceApp(int64 app_id, const std::string& actionLogFile) :
 								"onDOMContentLoaded") == 0) {
 							RaceInformation1.second.first = "Lu_DOM";
 						} else {
+							cout<<"no info race"<<endl;
 							no_info++;
-							toContinue = true;
+//							toContinue = true;
+							continue;
 						}
 					}
 					if (RaceInformation2.second.first.empty()) {
@@ -496,57 +502,50 @@ RaceApp::RaceApp(int64 app_id, const std::string& actionLogFile) :
 							RaceInformation2.second.first = "Lu_DOM";
 						} else {
 							no_info++;
-							toContinue = true;
+							cout<<"no info race"<<endl;
+//							toContinue = true;
+							continue;
 						}
 					}
 					if (RaceInformation1.second.second.empty()) {
-						toContinue = true;
+//						toContinue = true;
+						continue;
 					}
 					if (RaceInformation2.second.second.empty())
-						toContinue = true;
+//						toContinue = true;
+						continue;
 
 					if (RaceInformation1.second.second.compare(
 							"onreadystatechange") == 0) {
-						toContinue = true;
+//						toContinue = true;
 						ajax_race++;
+						continue;
 					}
 
 					if (RaceInformation2.second.second.compare(
 							"onreadystatechange") == 0) {
-						toContinue = true;
+//						toContinue = true;
 						ajax_race++;
+						continue;
 					}
 
 					if (RaceInformation1.second.second.find("__BUBBLE")
 							!= string::npos
 							|| RaceInformation1.second.second.find("__CAPTURE")
 									!= string::npos) {
-						toContinue = true;
+//						toContinue = true;
 						bubble_race++;
+						continue;
 					} else if (RaceInformation2.second.second.find("__BUBBLE")
 							!= string::npos
 							|| RaceInformation2.second.second.find("__CAPTURE")
 									!= string::npos) {
-						toContinue = true;
+//						toContinue = true;
 						bubble_race++;
+						continue;
 					}
 
 					//if both of the two events are replayable
-
-					pair<int, int> curr_race = make_pair((*it).m_event1,
-							(*it).m_event2);
-					if (existing_races.find(curr_race)
-							!= existing_races.end()) {
-						if ((*it).m_coveredBy == -1) {
-							duplicated++;
-							cout << (*it).m_event1 << " -> " << (*it).m_event2
-									<< " duplicated!" << endl;
-						}
-						continue;
-					} else {
-						existing_races[curr_race] = 1;
-						count_pre_run++;
-					}
 
 					if (var_name.find("Lu_DOM__onclick") != std::string::npos) {
 						bubble_race++;
@@ -564,13 +563,15 @@ RaceApp::RaceApp(int64 app_id, const std::string& actionLogFile) :
 
 					if (checkSpecialEventHandler(Event1String, Event2String)) {
 						bogus_race++;
-						toContinue = true;
+//						toContinue = true;
 						cout << "Bogus race!" << endl;
+						continue;
 					} else if (checkSpecialEventHandler(Event2String,
 							Event1String)) {
 						bogus_race++;
-						toContinue = true;
+//						toContinue = true;
 						cout << "Bogus race!" << endl;
+						continue;
 					}
 
 					if (toContinue) {
@@ -588,6 +589,7 @@ RaceApp::RaceApp(int64 app_id, const std::string& actionLogFile) :
 							|| RaceInformation1.second.second.empty()
 							|| RaceInformation2.second.second.empty()) {
 						no_info++;
+						cout<<"no info race"<<endl;
 						continue;
 
 					}
@@ -665,6 +667,32 @@ RaceApp::RaceApp(int64 app_id, const std::string& actionLogFile) :
 				}
 
 				else {
+					vector<string>::iterator it_op;
+
+					bool to_break = false;
+
+					for (it_op = op1.begin(); it_op != op1.end(); ++it_op) {
+						if ((*it_op).find("event:") != string::npos) {
+							no_info++;
+							to_break = true;
+							cout<<"no info race"<<endl;
+							break;
+						}
+					}
+
+					if (to_break == true)
+						continue;
+
+					for (it_op = op2.begin(); it_op != op2.end(); ++it_op) {
+						if ((*it_op).find("event:") != string::npos) {
+							no_info++;
+							to_break = true;
+							cout<<"no info race"<<endl;
+							break;
+						}
+					}
+					if (to_break == true)
+						continue;
 					cout << "Not replayable!" << endl;
 				}
 
@@ -851,7 +879,9 @@ RaceApp::RaceApp(int64 app_id, const std::string& actionLogFile) :
 							RaceInformation1.second.first = "Lu_DOM";
 						} else {
 							no_info++;
-							toContinue = true;
+							cout<<"no info race"<<endl;
+//							toContinue = true;
+							continue;
 						}
 					} else if (RaceInformation2.second.first.empty()) {
 						if (RaceInformation2.second.second.compare(
@@ -859,38 +889,47 @@ RaceApp::RaceApp(int64 app_id, const std::string& actionLogFile) :
 							RaceInformation2.second.first = "Lu_DOM";
 						} else {
 							no_info++;
-							toContinue = true;
+							cout<<"no info race"<<endl;
+//							toContinue = true;
+							continue;
 						}
 					}
 
 					if (RaceInformation1.second.second.empty()) {
-						toContinue = true;
-					} else if (RaceInformation2.second.second.empty())
-						toContinue = true;
+//						toContinue = true;
+						continue;
+					} else if (RaceInformation2.second.second.empty()) {
+//						toContinue = true;
+						continue;
+					}
 
 					//filter ajax for now
 					if (RaceInformation1.second.second.compare(
 							"onreadystatechange") == 0) {
-						toContinue = true;
+//						toContinue = true;
 						ajax_race++;
+						continue;
 					} else if (RaceInformation2.second.second.compare(
 							"onreadystatechange") == 0) {
-						toContinue = true;
+//						toContinue = true;
 						ajax_race++;
+						continue;
 					}
 
 					if (RaceInformation1.second.second.find("__BUBBLE")
 							!= string::npos
 							|| RaceInformation1.second.second.find("__CAPTURE")
 									!= string::npos) {
-						toContinue = true;
+//						toContinue = true;
 						bubble_race++;
+						continue;
 					} else if (RaceInformation2.second.second.find("__BUBBLE")
 							!= string::npos
 							|| RaceInformation2.second.second.find("__CAPTURE")
 									!= string::npos) {
-						toContinue = true;
+//						toContinue = true;
 						bubble_race++;
+						continue;
 					}
 
 					string Event1String = "" + RaceInformation1.second.first
@@ -906,13 +945,15 @@ RaceApp::RaceApp(int64 app_id, const std::string& actionLogFile) :
 
 					if (checkSpecialEventHandler(Event1String, Event2String)) {
 						bogus_race++;
-						toContinue = true;
+//						toContinue = true;
 						cout << "Bogus race!" << endl;
+						continue;
 					} else if (checkSpecialEventHandler(Event2String,
 							Event1String)) {
 						bogus_race++;
-						toContinue = true;
+//						toContinue = true;
 						cout << "Bogus race!" << endl;
+						continue;
 					}
 
 					if (toContinue) {
@@ -952,6 +993,7 @@ RaceApp::RaceApp(int64 app_id, const std::string& actionLogFile) :
 							|| RaceInformation1.second.second.empty()
 							|| RaceInformation2.second.second.empty()) {
 						no_info++;
+						cout<<"no info race"<<endl;
 						continue;
 
 					}
@@ -1031,6 +1073,33 @@ RaceApp::RaceApp(int64 app_id, const std::string& actionLogFile) :
 				}
 
 				else {
+					vector<string>::iterator it_op;
+
+					bool to_break = false;
+
+					for (it_op = op1.begin(); it_op != op1.end(); ++it_op) {
+						if ((*it_op).find("event:") != string::npos) {
+							no_info++;
+							to_break = true;
+							cout<<"no info race"<<endl;
+							break;
+						}
+					}
+
+					if (to_break == true)
+						continue;
+
+					for (it_op = op2.begin(); it_op != op2.end(); ++it_op) {
+						if ((*it_op).find("event:") != string::npos) {
+							no_info++;
+							to_break = true;
+							cout<<"no info race"<<endl;
+							break;
+
+						}
+					}
+					if (to_break == true)
+						continue;
 					cout << "Not replayable!" << endl;
 				}
 
@@ -1057,8 +1126,8 @@ RaceApp::RaceApp(int64 app_id, const std::string& actionLogFile) :
 
 	cout << "Final unhandled    :   "
 			<< uncovered - replayableRacesCount - sync_race - timer_race
-					- (duplicated - count_pre_run) - bogus_race - closure_race
-					- bubble_race - ajax_race << endl;
+					 - bogus_race - closure_race
+					- bubble_race - ajax_race - no_info << endl;
 	cout << "\nFiltered Duplicated   :   " << duplicated - count_pre_run
 			<< endl;
 

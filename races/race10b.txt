@@ -1,0 +1,17 @@
+<script id = "race10b" class = "Lu_Inst">
+	if(!myVars) {var myVars = {};}
+	if(!myVars.races) {myVars.races= {};}
+	myVars.races.race10={};
+	myVars.races.race10.varName="ctlSearch_SearchCharacterSet__onkeypress";
+	myVars.races.race10.event1={};
+	myVars.races.race10.event2={};
+	myVars.races.race10.event1.id = "ctlSearch_SearchCharacterSet";
+	myVars.races.race10.event1.type = "onkeypress";
+	myVars.races.race10.event1.loc = "ctlSearch_SearchCharacterSet_LOC";
+	myVars.races.race10.event2.id = "Lu_DOM";
+	myVars.races.race10.event2.type = "onDOMContentLoaded";
+	myVars.races.race10.event2.loc = "Lu_DOM_LOC";
+	myVars.races.race10.event1.executed= false;// true to disable, false to enable
+	myVars.races.race10.event2.executed= false;// true to disable, false to enable
+</script>
+

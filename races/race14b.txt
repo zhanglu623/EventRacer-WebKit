@@ -1,0 +1,17 @@
+<script id = "race14b" class = "Lu_Inst">
+	if(!myVars) {var myVars = {};}
+	if(!myVars.races) {myVars.races= {};}
+	myVars.races.race14={};
+	myVars.races.race14.varName="Tree[0x7f3eacfbc458]:LocationDrop";
+	myVars.races.race14.event1={};
+	myVars.races.race14.event2={};
+	myVars.races.race14.event1.id = "Lu_Id_div_10";
+	myVars.races.race14.event1.type = "onmouseover";
+	myVars.races.race14.event1.loc = "Lu_Id_div_10_LOC";
+	myVars.races.race14.event2.id = "LocationDrop";
+	myVars.races.race14.event2.type = "LocationDrop__parsed";
+	myVars.races.race14.event2.loc = "LocationDrop_LOC";
+	myVars.races.race14.event1.executed= false;// true to disable, false to enable
+	myVars.races.race14.event2.executed= false;// true to disable, false to enable
+</script>
+

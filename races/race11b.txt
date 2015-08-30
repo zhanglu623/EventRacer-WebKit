@@ -1,0 +1,17 @@
+<script id = "race11b" class = "Lu_Inst">
+	if(!myVars) {var myVars = {};}
+	if(!myVars.races) {myVars.races= {};}
+	myVars.races.race11={};
+	myVars.races.race11.varName="#document[0x7f3eacfbc400].keyup";
+	myVars.races.race11.event1={};
+	myVars.races.race11.event2={};
+	myVars.races.race11.event1.id = "form1";
+	myVars.races.race11.event1.type = "onkeyup";
+	myVars.races.race11.event1.loc = "form1_LOC";
+	myVars.races.race11.event2.id = "Lu_DOM";
+	myVars.races.race11.event2.type = "onDOMContentLoaded";
+	myVars.races.race11.event2.loc = "Lu_DOM_LOC";
+	myVars.races.race11.event1.executed= false;// true to disable, false to enable
+	myVars.races.race11.event2.executed= false;// true to disable, false to enable
+</script>
+

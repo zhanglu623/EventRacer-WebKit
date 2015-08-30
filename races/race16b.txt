@@ -1,0 +1,17 @@
+<script id = "race16b" class = "Lu_Inst">
+	if(!myVars) {var myVars = {};}
+	if(!myVars.races) {myVars.races= {};}
+	myVars.races.race16={};
+	myVars.races.race16.varName="Tree[0x7f3eacfbc458]:ProductsDrop";
+	myVars.races.race16.event1={};
+	myVars.races.race16.event2={};
+	myVars.races.race16.event1.id = "Lu_Id_li_2";
+	myVars.races.race16.event1.type = "onmouseout";
+	myVars.races.race16.event1.loc = "Lu_Id_li_2_LOC";
+	myVars.races.race16.event2.id = "ProductsDrop";
+	myVars.races.race16.event2.type = "ProductsDrop__parsed";
+	myVars.races.race16.event2.loc = "ProductsDrop_LOC";
+	myVars.races.race16.event1.executed= false;// true to disable, false to enable
+	myVars.races.race16.event2.executed= false;// true to disable, false to enable
+</script>
+

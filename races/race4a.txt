@@ -2,15 +2,15 @@
 	if(!myVars) {var myVars = {};}
 	if(!myVars.races) {myVars.races= {};}
 	myVars.races.race4={};
-	myVars.races.race4.varName="Window[26].status";
+	myVars.races.race4.varName="__VIEWSTATEGENERATOR__onkeypress";
 	myVars.races.race4.event1={};
 	myVars.races.race4.event2={};
-	myVars.races.race4.event1.id = "Lu_Id_div_8";
-	myVars.races.race4.event1.type = "onmouseover";
-	myVars.races.race4.event1.loc = "Lu_Id_div_8_LOC";
-	myVars.races.race4.event2.id = "Lu_Id_div_7";
-	myVars.races.race4.event2.type = "onmouseout";
-	myVars.races.race4.event2.loc = "Lu_Id_div_7_LOC";
+	myVars.races.race4.event1.id = "Lu_DOM";
+	myVars.races.race4.event1.type = "onDOMContentLoaded";
+	myVars.races.race4.event1.loc = "Lu_DOM_LOC";
+	myVars.races.race4.event2.id = "__VIEWSTATEGENERATOR";
+	myVars.races.race4.event2.type = "onkeypress";
+	myVars.races.race4.event2.loc = "__VIEWSTATEGENERATOR_LOC";
 	myVars.races.race4.event1.executed= false;// true to disable, false to enable
 	myVars.races.race4.event2.executed= false;// true to disable, false to enable
 </script>

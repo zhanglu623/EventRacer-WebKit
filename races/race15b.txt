@@ -1,0 +1,17 @@
+<script id = "race15b" class = "Lu_Inst">
+	if(!myVars) {var myVars = {};}
+	if(!myVars.races) {myVars.races= {};}
+	myVars.races.race15={};
+	myVars.races.race15.varName="CSSStyleDeclaration[13221].display";
+	myVars.races.race15.event1={};
+	myVars.races.race15.event2={};
+	myVars.races.race15.event1.id = "Lu_Id_div_10";
+	myVars.races.race15.event1.type = "onmouseover";
+	myVars.races.race15.event1.loc = "Lu_Id_div_10_LOC";
+	myVars.races.race15.event2.id = "Lu_DOM";
+	myVars.races.race15.event2.type = "onDOMContentLoaded";
+	myVars.races.race15.event2.loc = "Lu_DOM_LOC";
+	myVars.races.race15.event1.executed= false;// true to disable, false to enable
+	myVars.races.race15.event2.executed= false;// true to disable, false to enable
+</script>
+

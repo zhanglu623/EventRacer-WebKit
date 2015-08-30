@@ -1,0 +1,17 @@
+<script id = "race18b" class = "Lu_Inst">
+	if(!myVars) {var myVars = {};}
+	if(!myVars.races) {myVars.races= {};}
+	myVars.races.race18={};
+	myVars.races.race18.varName="CSSStyleDeclaration[22630].display";
+	myVars.races.race18.event1={};
+	myVars.races.race18.event2={};
+	myVars.races.race18.event1.id = "ProductsDrop";
+	myVars.races.race18.event1.type = "onmouseout";
+	myVars.races.race18.event1.loc = "ProductsDrop_LOC";
+	myVars.races.race18.event2.id = "Lu_Id_li_2";
+	myVars.races.race18.event2.type = "onmouseout";
+	myVars.races.race18.event2.loc = "Lu_Id_li_2_LOC";
+	myVars.races.race18.event1.executed= false;// true to disable, false to enable
+	myVars.races.race18.event2.executed= false;// true to disable, false to enable
+</script>
+
